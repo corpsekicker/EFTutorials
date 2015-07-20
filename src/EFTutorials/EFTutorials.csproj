@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Teacher.cs" />
     <Compile Include="SchoolContext.cs" />
     <Compile Include="Models\Standard.cs" />
     <Compile Include="Models\Student.cs" />

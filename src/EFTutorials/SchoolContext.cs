@@ -5,7 +5,8 @@ namespace EFTutorials
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext() : base()
+        public SchoolContext() : base("SchoolDBEntities")
+        
         {
             
         }
