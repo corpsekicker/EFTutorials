@@ -7,7 +7,6 @@ namespace EFTutorials.Models
     {
         public Student()
         {
-            //this.DateOfBirth = DateTime.Now;
         }
 
         public int StudentID { get; set; }
@@ -22,7 +21,7 @@ namespace EFTutorials.Models
         public int? StandardId { get; set; }
         //public int TeacherId { get; set; }
 
-       //public Teacher Teacher { get; set; }
+        //public Teacher Teacher { get; set; }
         public Standard Standard { get; set; }
     }
 }

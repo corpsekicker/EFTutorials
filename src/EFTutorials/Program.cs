@@ -15,18 +15,18 @@ namespace EFTutorials
             
             using (var context = new SchoolContext())
             {
-                // Add a Teacher
-                //Teacher teacher = new Teacher {Name = "Teacher 1"};
+                //// Add a Teacher
+                ////Teacher teacher = new Teacher {Name = "Teacher 1"};
 
-                // Add a Standard
-                Standard standard1 = new Standard { StandardId = 1, StandardName = "Standard 1" };
-                context.Standards.Add(standard1);
-                context.SaveChanges();
+                //// Add a Standard
+                //Standard standard1 = new Standard { StandardId = 1, StandardName = "Standard 1" };
+                //context.Standards.Add(standard1);
+                //context.SaveChanges();
 
-                // Add a Student
-                Student student = new Student { StudentName = "New Student", Standard = standard1 };
-                context.Students.Add(student);
-                context.SaveChanges();
+                //// Add a Student
+                //Student student = new Student { StudentName = "New Student", Standard = standard1 };
+                //context.Students.Add(student);
+                //context.SaveChanges();
             }
 
             Console.WriteLine("Press any key to exit.");
