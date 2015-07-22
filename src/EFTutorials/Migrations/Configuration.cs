@@ -14,7 +14,7 @@ namespace EFTutorials.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(SchoolContext context)
+        protected override void Seed(EFTutorials.SchoolContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -30,7 +30,9 @@ namespace EFTutorials.Migrations
             //
 
             // Add a Teacher
-            //Teacher teacher = new Teacher {Name = "Teacher 1"};
+            Teacher teacher = new Teacher { TeacherId = 1, Name = "Teacher 1" };
+            context.Teachers.Add(teacher);
+            context.SaveChanges();
 
             // Add a Standard
             Standard standard1 = new Standard { StandardId = 1, StandardName = "Standard 1" };

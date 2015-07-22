@@ -66,9 +66,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201507200729232_InitialCreate.cs" />
-    <Compile Include="Migrations\201507200729232_InitialCreate.Designer.cs">
-      <DependentUpon>201507200729232_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201507200757201_InitialCreate.cs" />
+    <Compile Include="Migrations\201507200757201_InitialCreate.Designer.cs">
+      <DependentUpon>201507200757201_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Teacher.cs" />
@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Object Model.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,8 +104,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201507200729232_InitialCreate.resx">
-      <DependentUpon>201507200729232_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201507200757201_InitialCreate.resx">
+      <DependentUpon>201507200757201_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

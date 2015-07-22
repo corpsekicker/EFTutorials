@@ -19,9 +19,9 @@ namespace EFTutorials.Models
         public float Weight { get; set; }
         
         public int? StandardId { get; set; }
-        //public int TeacherId { get; set; }
+        public int TeacherId { get; set; }
 
-        //public Teacher Teacher { get; set; }
+        public Teacher Teacher { get; set; }
         public Standard Standard { get; set; }
     }
 }
